@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.quote {
+  background-image: url("https://images.unsplash.com/photo-1701972184355-d7de7849ee26?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.quote-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-heading {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.quote-content {
+  padding: 2rem;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+}
+
+.quote-author {
+  color: #888;
+}

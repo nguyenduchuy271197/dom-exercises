@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <div class="quote">
+      <div class="container">
+        <div class="quote-container">
+          <h1 class="quote-heading">Quote Generator</h1>
+
+          <div class="quote-content">
+            <p class="quote-text" id="quote-text">
+              The only way to do great work is to love what you do.
+            </p>
+            <p class="quote-author" id="quote-author">Steve Jobs</p>
+            <button
+              class="pure-button pure-button-primary"
+              onclick="changeQuote()"
+            >
+              New Quote
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

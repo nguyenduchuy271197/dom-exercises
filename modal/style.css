@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.modal-content {
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#close-modal-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
